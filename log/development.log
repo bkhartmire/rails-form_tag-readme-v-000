@@ -444,3 +444,10 @@ Cannot render console from 111.239.242.247! Allowed networks: 127.0.0.1, ::1, 12
 Processing by PostsController#new as HTML
   Rendered posts/new.html.erb within layouts/application (4.4ms)
 Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 111.239.242.247 at 2017-12-23 13:09:05 +0000
+Cannot render console from 111.239.242.247! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
